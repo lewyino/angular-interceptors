@@ -4,7 +4,7 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {LogInterceptorService} from './services/log-interceptor.service';
-import {SnakeCaseInterceptorService} from './snake-case-interceptor.service';
+import {SnakeCaseInterceptorService} from './services/snake-case-interceptor.service';
 
 @NgModule({
     declarations: [
